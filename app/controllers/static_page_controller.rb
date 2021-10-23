@@ -3,9 +3,16 @@ class StaticPageController < ApplicationController
     @is_home = true
   end
 
+  def policy
+  end
+
   def about
   end
 
+  def privacy
+  end
+
+  # 参考に残しておく
   def team
   end
 
@@ -33,4 +40,5 @@ class StaticPageController < ApplicationController
 
   def contact
   end
+
 end
