@@ -9,8 +9,8 @@
     <nav id="navbar" class="navbar">
       <ul>
         <li><%= link_to "トップページ", root_path, class: @menu == :home ? "active" : nil %></li>
-
         <li><%= link_to "組織理念", policy_path, class: @menu == :policy ? "active" : nil %></li>
+        <li><%= link_to "システム開発", development_path, class: @menu == :development ? "active" : nil %></li>
         <li><%= link_to "組織情報", about_path, class: @menu == :about ? "active" : nil %></li>
         <!--
         <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>

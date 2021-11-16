@@ -6,6 +6,9 @@ class StaticPageController < ApplicationController
   def policy
   end
 
+  def development
+  end
+
   def about
   end
 

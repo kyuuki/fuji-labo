@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   # root to: 'static_page#home'  # 上記はこれの省略形
 
   get '/policy', to: 'static_page#policy'
+  get '/development', to: 'static_page#development'
   get '/about', to: 'static_page#about'
   get '/privacy', to: 'static_page#privacy'
 
